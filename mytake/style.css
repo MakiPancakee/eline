@@ -1,0 +1,27 @@
+/* Import de la police d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap');
+
+/* Couleur du fond + Police d'écriture appliquée // l'astérisque signifie que l'on prend en compte TOUS les éléments du code*/
+* {
+    background-color: rgb(224, 205, 169);
+    font-family: 'Noto Serif Khojki', serif;
+}
+
+/* Une petite marge sur le "body", c'est plus agréable à l'oeil, mais si t'aimes pas, tu effaces ça */
+body {
+    margin: 2em;
+}
+
+/*  Style du titre principal (celui qui bouge) : concerne toute la div qui a la classe "title" */
+.title {
+    /* Ecarts à gauche et à droite, em est une unité de mesure */
+    padding-left: 6em;
+    padding-right: 6em;
+    /* Taille du texte */
+    font-size: 2em;
+    /* Texte en gras */
+    font-weight: bold;
+}
+
+
+
